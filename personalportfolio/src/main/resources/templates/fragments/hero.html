@@ -1,0 +1,45 @@
+<!-- fragments/hero.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container hero-center">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Prajjwal J</span></h1>
+                <h2 class="hero-subtitle">Software Developer</h2>
+                <p class="hero-description">
+                    Passionate software developer with a strong foundation in Core Java, OOPs, and backend development. Experienced in building REST APIs using Spring Boot and working with databases. Actively learning and applying modern technologies to solve real-world problems and grow as a software engineer.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="/resume/Prajjwal J_Resume.pdf" target="_blank" class="btn btn-outline">
+                        View Resume <i class="fas fa-file-lines"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:prajjwalj02@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prajjwal-j/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/jprajjwal" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+
+</html>
